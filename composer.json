@@ -1,0 +1,21 @@
+{
+    "name": "ruis09/composer-trietree",
+    "description": "demo for tiretree\b\b",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ruis09",
+            "email": "1173544379@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php":">=7.0.0"
+    },
+    "autoload":{
+    	"psr-4":{
+             "TrieTree\\":"src/TrieTree"
+         }
+    }
+}
